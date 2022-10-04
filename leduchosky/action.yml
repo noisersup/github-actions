@@ -1,0 +1,8 @@
+---
+name: hello-ledu
+on: push
+
+runs:
+  steps:
+    - name: "hello-ledu"
+      run: echo "Hello Ledu!"
