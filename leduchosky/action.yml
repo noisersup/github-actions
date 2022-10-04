@@ -1,0 +1,10 @@
+---
+name: hello-ledu
+description: ""
+
+runs:
+  using: "composite"
+  steps:
+    - name: "hello-ledu"
+      run: echo "Hello Ledu!"
+      shell: bash
